@@ -1,0 +1,65 @@
+/* src/styles/styles.css */
+
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .kanban-board {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .column {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    width: 250px;
+  }
+  
+  .ticket {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .priority {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+  }
+  
+  .priority-4 {
+    background-color: red;
+    color: white;
+  }
+  
+  .priority-3 {
+    background-color: orange;
+    color: white;
+  }
+  
+  .priority-2 {
+    background-color: yellow;
+    color: black;
+  }
+  
+  .priority-1 {
+    background-color: green;
+    color: white;
+  }
+  
+  .priority-0 {
+    background-color: gray;
+    color: white;
+  }
+  
